@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "echo:CNAME": "echo 'kanagawasohgoh-d.net' > ./docs/CNAME",
+    "start": "siteelm server",
+    "build": "siteelm make && npm run echo:CNAME"
+  },
+  "devDependencies": {
+    "elm-analyse": "^0.16.5",
+    "elm-format": "^0.8.2",
+    "elm-json": "^0.2.6",
+    "siteelm": "^0.3.1"
+  }
+}
